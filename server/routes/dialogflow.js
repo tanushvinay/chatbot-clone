@@ -40,7 +40,7 @@ router.post('/textQuery', async (req,res)=>{
   } else {
     console.log(`  No intent matched.`);
   }
-
+  res.send(result);
 
 })
 
